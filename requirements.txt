@@ -1,6 +1,5 @@
-h5py
 tensorflow
 matplotlib
+pandas
 numpy
-opencv-python
 sklearn
