@@ -1,15 +1,11 @@
 import numpy as np
 import tensorflow as tf
-from sklearn.preprocessing import LabelBinarizer
 import os
 
 class Preprocessor:
 
-    lb = LabelBinarizer()
-
-    def __init__(self, x, y):
-        self.x = x
-        self.y = y
+    def __init__(self):
+        pass
 
     def mnist_preprocess(X_train, X_test, y_train, y_test, train_size=0.7):
         ## splits dataset into train/val/test
